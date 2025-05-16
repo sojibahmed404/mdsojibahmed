@@ -1,0 +1,16 @@
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main()
+{
+     int A,B,C;
+    cin>>A>>B>>C;
+
+
+    int mini=min({A,B,C});
+    int mixi=max ({A,B,C});
+
+    cout<<mini<<" "<<mixi<<endl;
+
+    return 0;
+}
