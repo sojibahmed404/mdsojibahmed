@@ -1,0 +1,19 @@
+#include<iostream>
+#include<cctype>
+using namespace std;
+int main()
+{
+    char ch;
+    cin>>ch;
+
+    if((char)isupper(ch))
+    {
+        cout<<(char)tolower(ch)<<endl;
+    }else if((char)islower(ch)){
+
+    cout<<(char) toupper(ch)<<endl;
+    }
+return 0;
+}
+
+
